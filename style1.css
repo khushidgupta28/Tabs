@@ -1,0 +1,58 @@
+body{
+   background-color: brown;
+   display:'flex';
+   align-items: center;
+   font: 200;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   margin: 0;
+   height: 100vh;
+   justify-content: center;
+}
+
+.container{
+    width: 500px;
+    background-color: azure;
+    box-shadow: 0 16px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.tabs{
+    color: black;
+    flex: 1;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.tabs-header{
+    display: flex;
+    background-attachment: fixed;
+    background-color: beige;
+    border-bottom: 2px solid #ddd;
+}
+
+.p{
+    color: blanchedalmond;
+    background-color: black;
+}
+
+.tabs:hover{
+    background-color: #e2e8f0;
+    color: #000;
+}
+
+.tabs.active{
+    background-color: antiquewhite;
+    color: deeppink;
+    border-bottom: 3px solid #007bff;
+    margin-bottom: -2px;
+}
+
+.tabs-content{
+    padding: 30px;
+    min-height: 100px;
+    color: black;
+    line-height: 1.6;
+}
